@@ -32,6 +32,6 @@
     width: 240px;
 }
 
-body {
+html, body, head {
     font-size: 80%;
 }

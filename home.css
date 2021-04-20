@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+.carousel-blackish {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.nav-item:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 600px;
+}
+
+.responsive-image {
+    object-fit: contain;
+    height: 240px;
+    width: 240px;
+}
+
+body > div {
+    font-size: 95%;
+}

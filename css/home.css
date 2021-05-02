@@ -27,11 +27,11 @@
 }
 
 .responsive-image {
-    object-fit: contain;
-    height: 240px;
-    width: 240px;
+    object-fit: cover;
+    height: 320px;
+    width: 300px;
 }
 
 html, body, head {
-    font-size: 94%;
+    font-size: 93%;
 }

@@ -32,12 +32,19 @@
     width: 300px;
 }
 
-html, body, head {
-    font-size: 93%;
+.responsive-image-carousel {
+    filter: brightness(60%);
+    object-fit: cover;
+    height: 600px;
+    width: auto;
+}
+
+html {
+    font-size: 92%;
 }
 
 .dropdown-menu {
-    background-color: #343a40;
+    background-color: #2f343a;
 }
 
 .dropdown-item {
